@@ -29,7 +29,6 @@ def exit
 end
 
 def run
-  while true
     help
     puts "Please enter a command:"
     command = gets.chomp
@@ -44,5 +43,4 @@ def run
     when "exit"
       exit
     end
-  end
 end
