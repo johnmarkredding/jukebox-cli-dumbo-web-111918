@@ -21,10 +21,12 @@ end
 def help 
   puts "Possible Commands: help, play, list, exit."
 end
+
 def list(songs)
   puts songs
 end
-def exit
+
+def exit_jukebox
   puts "Goodbye"
 end
 
