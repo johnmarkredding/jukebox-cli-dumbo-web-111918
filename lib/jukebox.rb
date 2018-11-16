@@ -12,7 +12,7 @@ songs = [
 def play(songs_list)
   song = gets.chomp
   if (song.to_i.to_s == song) && (songs_list[song.to_i] != nil)
-    puts songs_list[song.to_i]
+    puts songs_list[song.to_i - 1]
   elsif songs_list.include?(song)
     puts song
   else
