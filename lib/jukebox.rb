@@ -43,8 +43,6 @@ def run
       list
     when "exit"
       exit
-    else
-      puts "Not a command. Type help for all commands."
     end
   end
 end
