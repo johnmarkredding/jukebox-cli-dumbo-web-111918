@@ -43,4 +43,5 @@ def run
     when "exit"
       exit
     end
+  end
 end
