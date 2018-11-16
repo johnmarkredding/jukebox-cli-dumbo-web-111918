@@ -42,6 +42,8 @@ def run
       list
     when "exit"
       exit
+    else
+      puts "Fail"
     end
   end
 end
