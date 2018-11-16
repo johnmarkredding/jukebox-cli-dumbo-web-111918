@@ -11,8 +11,8 @@ songs = [
 ]
 def play(songs_list)
   song = gets.chomp
-  if (song.to_i.to_s == songs)
-    puts songs_list[song]
+  if (song.to_i.to_s == song)
+    puts songs_list[song.to_i]
   else
     puts "Invalid input, please try again"
   end
