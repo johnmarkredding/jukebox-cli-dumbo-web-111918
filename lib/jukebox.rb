@@ -42,7 +42,6 @@ def run
     list
   when "exit"
     exit
-    break
   else
     puts "Not a command. Type help for all commands."
   end
