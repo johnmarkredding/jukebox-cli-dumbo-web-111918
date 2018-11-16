@@ -29,7 +29,7 @@ def exit
 end
 
 def run
-  help
+  help()
     puts "Please enter a command:"
     command = gets.chomp
     case command
