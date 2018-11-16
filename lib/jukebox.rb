@@ -29,20 +29,22 @@ def exit
 end
 
 def run
-  help
-  puts "Please enter a command:"
-  command = gets.chomp
-  case command
-  when "help"
+  while true do
     help
-  when "play"
-    puts "Please enter a song name or number:"
-    play(songs)
-  when "list"
-    list
-  when "exit"
-    exit
-  else
-    puts "Not a command. Type help for all commands."
+    puts "Please enter a command:"
+    command = gets.chomp
+    case command
+    when "help"
+      help
+    when "play"
+      puts "Please enter a song name or number:"
+      play(songs)
+    when "list"
+      list
+    when "exit"
+      exit
+    else
+      puts "Not a command. Type help for all commands."
+    end
   end
 end
