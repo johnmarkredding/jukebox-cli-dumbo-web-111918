@@ -10,12 +10,12 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 def play(songs_list)
-
   if (true)
     song = gets.chomp.to_i - 1
     puts songs_list[song]
   else
     puts "Invalid input, please try again"
+  end
 end
 
 def help 
