@@ -11,7 +11,7 @@ songs = [
 ]
 def play(songs_list)
   song = gets.chomp
-  if (song.to_i.to_s == song) && (!songs_list[song.to_i].empty?)
+  if (song.to_i.to_s == song) && (!songs_list[song.to_i] != nil)
     puts songs_list[song.to_i]
   elsif songs_list.include?(song)
     puts song
