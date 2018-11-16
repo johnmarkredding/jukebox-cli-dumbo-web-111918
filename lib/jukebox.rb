@@ -31,7 +31,7 @@ def exit_jukebox
 end
 
 def run(songs)
-  help()
+  help
   puts "Please enter a command:"
   command = gets.chomp
   case command
