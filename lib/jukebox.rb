@@ -29,7 +29,7 @@ def exit
 end
 
 def run
-  while true do
+  while true
     help
     puts "Please enter a command:"
     command = gets.chomp
