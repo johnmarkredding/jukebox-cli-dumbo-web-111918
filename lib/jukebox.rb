@@ -11,15 +11,11 @@ songs = [
 ]
 def play(songs_list)
   song = gets.chomp
-  if ()
-    
+  if (song.to_i.to_s == songs)
     puts songs_list[song]
   else
     puts "Invalid input, please try again"
   end
-  
-  
-  
 end
 
 def help 
